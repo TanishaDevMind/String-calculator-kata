@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rspec'
+require './lib/string_calculator'
 RSpec.describe StringCalculator do
   context 'with valid input' do
     it 'returns the sum of numbers' do
